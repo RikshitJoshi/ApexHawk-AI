@@ -1,0 +1,16 @@
+{
+  "_comment": "Authorized-testing scope. Copy to scope.json and edit. ApexHawk refuses to run target-bearing tools against anything not listed here unless allow_any is true (lab use only). Set APEXHAWK_SCOPE to point at a different file.",
+  "domains": [
+    "example.com",
+    "test.internal"
+  ],
+  "hosts": [
+    "127.0.0.1",
+    "10.0.0.5"
+  ],
+  "cidrs": [
+    "10.0.0.0/24",
+    "192.168.56.0/24"
+  ],
+  "allow_any": false
+}

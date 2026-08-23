@@ -1,0 +1,9 @@
+# ApexHawk AI - Python dependencies
+# Core web framework for the HTTP API server
+Flask>=3.0.0
+# HTTP client used by the MCP bridge and CVE/OSINT lookups
+requests>=2.31.0
+# Process + system telemetry (optional but recommended; code degrades if absent)
+psutil>=5.9.0
+# MCP server framework for the agent bridge (apexhawk_mcp.py)
+fastmcp>=0.2.0
